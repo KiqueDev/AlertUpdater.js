@@ -23,7 +23,7 @@ var opts = {
 	}
 };
 
-Initializing instance
+// Initializing instance
 var a = new AlertUpdater(opts);
 a.show();
 a.hide();
