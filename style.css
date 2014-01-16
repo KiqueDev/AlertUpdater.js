@@ -6,6 +6,7 @@ body{
 h1{
 	text-align: center;
 }
+
 .container{
 	position:absolute;
   left:20px;
@@ -21,6 +22,9 @@ h1{
   height: 70%;
   z-index: 100; 
   -webkit-transition:top 0.5s;
+  -moz-transition:top 0.5s;
+  -ms-transition:top 0.5s;
+  transition:top 0.5s;
 }
 
 .alert-updater-fade {
