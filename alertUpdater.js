@@ -103,5 +103,11 @@
 }(this));
 
 ////////////////////////// TESTING //////////////////////////
-var opts = { content:["task1", "task2"], callback:function(){console.log("my stuff here");}};
+var opts = { 
+  title: "My Custom title", 
+  content: ["task1", "task2"], 
+  callback: function(){
+    console.log("my stuff here");
+  }
+};
 var a = new AlertUpdater(opts);
