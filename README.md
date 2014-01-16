@@ -5,12 +5,12 @@ A Simple modal application that it suppose to be added to application to show th
 
 ## Usage ##
 AlertUpdater	
-@PARAMS takses an object with:
-	- [String] title: for the header of the modal
-	- [Array] content: for the content of the modal
-	- [Function] callback: a callback after you click the ok button
+@PARAMS takes an object with:  
+	- [String] title: for the header of the modal  
+	- [Array] content: for the content of the modal  
+	- [Function] callback: a callback after you click the ok button  
 
-Function Available:
+Function Available:  
 ``hide()``
 ``show()``
 
