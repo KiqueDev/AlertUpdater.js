@@ -51,6 +51,8 @@ h1{
 	width:100%;
 	text-align: center;
 	height:15%;
+	white-space:nowrap; 
+	text-overflow:ellipsis
 }
 
 .alert-updater-container {
