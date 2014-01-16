@@ -80,23 +80,24 @@
     var self = this;
     this.okBtn.addEventListener("click", function(){
       self.fade.style.display = 'none';
-      self.modal.style.top = "-115%";
+      self.modal.style.top = "-800px";
 
       self.callback();
     });
-
   };
 
   // Function that Show the modal 
   AlertUpdater.prototype.show = function () {
+    this.modal.style.display='block';
     this.fade.style.display='block';
-    this.modal.style.top = "15%";
+    this.modal.style.top = "60px";
   };
 
   // Function that Hide the modal 
   AlertUpdater.prototype.hide = function () {
     this.fade.style.display='none';
-    this.modal.style.top = "-115%";
+    this.modal.style.top = "-800px";
+
   };
 
   root.AlertUpdater = AlertUpdater;

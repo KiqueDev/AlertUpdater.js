@@ -14,6 +14,8 @@ Function Available:
 ``hide()``
 ``show()``
 
+**Feel Free to Customize it**
+
 ``` 
 var opts = { 
 	title: "My Custom title", 
